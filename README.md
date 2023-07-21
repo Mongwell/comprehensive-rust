@@ -33,7 +33,7 @@ trigger when going through the code samples. We hope to improve on this via
 The course is built using a few tools:
 
 - [mdbook](https://github.com/rust-lang/mdBook)
-- [mdbook-svgbob](https://github.com/boozook/mdbook-svgbob)
+- [mdbook-svgbob2](https://github.com/matthiasbeyer/mdbook-svgbob2)
 - [mdbook-i18n-helpers](https://github.com/google/mdbook-i18n-helpers)
 - [mdbook-exerciser](mdbook-exerciser/)
 
@@ -48,7 +48,7 @@ Then install these tools with:
 
 ```shell
 cargo install mdbook
-cargo install mdbook-svgbob
+cargo install mdbook-svgbob2
 cargo install mdbook-i18n-helpers
 cargo install --path mdbook-exerciser
 ```
