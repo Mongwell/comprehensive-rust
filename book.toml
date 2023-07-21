@@ -14,7 +14,7 @@ extra-watch-dirs = ["po", "third_party"]
 [preprocessor.gettext]
 after = ["links"]
 
-[preprocessor.svgbob]
+[preprocessor.svgbob2]
 renderers = ["html"]
 after = ["gettext"]
 class = "bob"
